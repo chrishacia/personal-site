@@ -1,1 +1,131 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --rounded-radius: 30px;
+  --circle-radius: 50%;
+  --main-bg-color: #fff;
+  --main-link-color: #7095df;
+  --main-text-color: #000;
+  --body-bg-color: #333;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  color: var(--main-text-color);
+  background-color: var(--body-bg-color);
+}
+
+a {
+  color: var(--main-link-color);
+  text-decoration: none;
+}
+
+.rounded-top {
+  border-top-left-radius: var(--rounded-radius);
+  border-top-right-radius: var(--rounded-radius);
+}
+
+.rounded-bottom {
+  border-bottom-left-radius: var(--rounded-radius);
+  border-bottom-right-radius: var(--rounded-radius);
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.content-body {
+  background-color: var(--main-bg-color);
+  padding: 20px 20px;
+}
+
+.nav-header {
+  background-color: #f7f2fc; /* var(--main-bg-color); */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height:95px;
+  padding-left: 30px;
+}
+
+.nav-logo-circle {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(129, 78, 129);
+  border-top-left-radius: var(--circle-radius);
+  border-top-right-radius: var(--circle-radius);
+  border-bottom-left-radius: var(--circle-radius);
+  border-bottom-right-radius: var(--circle-radius);
+}
+
+.nav-logo-circle-inner {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo-circle-inner a {
+  color: #fff;
+  font-size: 2.75em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-logo {
+  margin-left: 10px;
+}
+
+.nav-logo-text-lg {
+  font-size: 1.25em;
+}
+
+.nav-logo-text-sm {
+  font-size: .75em;
+}
+
+.nav-main {
+  margin-right: 30px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-main-item {
+  flex-grow: 0;
+  padding-left: 20px;
+}
+
+.nav-main-item:first-child {
+  padding-left: 0;
+}
+
+.foot-nav {
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height:30px;
+  padding-left: 30px;
+}
+
+.foot-nav-item {
+  font-size: .85em;
+  flex-grow: 0;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.foot-nav-item:first-child {
+  padding-left: 0;
+}
+
+.foot-nav-item:last-child {
+  padding-right: 20px;
+  margin-left: auto;
+}
