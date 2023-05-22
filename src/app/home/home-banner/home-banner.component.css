@@ -1,0 +1,52 @@
+.banner-wrapper {
+  display: flex;
+  direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.banner-content {
+  /* placeholder */
+}
+
+.banner-content:last-child {
+  padding-left: 50px;
+  flex-grow: 1;
+}
+
+.banner-content h1 {
+  font-size: 2.75em;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin-top: 0;
+}
+
+.banner-content p {
+  font-size: 1.25em;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.banner-image {
+  width: 300px;
+  height: 300px;
+  background-color: #bada55;
+  border-top-left-radius: var(--circle-radius);
+  border-top-right-radius: var(--circle-radius);
+  border-bottom-left-radius: var(--circle-radius);
+  border-bottom-right-radius: var(--circle-radius);
+  border-color: rgb(129, 78, 129);
+  border-style: solid;
+  border-width: 20px;
+  background-image: url('/assets/images/christopher-hacia.jpeg');
+  background-size: contain
+}
+
+.banner-header-string {
+  margin-top: 50px;
+  font-size: 1em;
+  text-decoration: none;
+  color: rgb(171, 165, 165);
+}
