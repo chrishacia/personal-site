@@ -6,7 +6,67 @@
     <div class="banner-header-string">I am a {{headerString}}</div>
     <h1 class="banner-header">Christopher Hacia</h1>
     <div>
-      <fa-icon class="banner-icon" [icon]="faFacebookSquare"></fa-icon>
+      <a class="banner-link" href="https://www.github.com/chrishacia" target="_blank">
+        <fa-icon
+          class="banner-icon"
+          [icon]="faGithub"
+          size="xl"
+        ></fa-icon>
+      </a>
+      <a class="banner-link" href="https://www.linkedin.com/in/chrishacia" target="_blank">
+        <fa-icon
+          class="banner-icon"
+          [icon]="faLinkedin"
+          size="xl"
+        ></fa-icon>
+      </a>
+      <a class="banner-link" href="https://www.facebook.com/christopher.hacia" target="_blank">
+        <fa-icon
+          class="banner-icon"
+          [icon]="faFacebook"
+          size="xl"
+        ></fa-icon>
+      </a>
+      <a class="banner-link" href="https://www.instagram.com/chrishacia" target="_blank">
+        <fa-icon
+          class="banner-icon"
+          [icon]="faInstagram"
+          size="xl"
+        ></fa-icon>
+      </a>
+      <a class="banner-link" href="https://www.twitter.com/chrishacia" target="_blank">
+        <fa-icon
+          class="banner-icon"
+          [icon]="faTwitter"
+          size="xl"
+        ></fa-icon>
+      </a>
+      <a class="banner-link" href="https://www.tiktok.com/@sevensparx" target="_blank">
+        <fa-icon
+          class="banner-icon"
+          [icon]="faTiktok"
+          size="xl"
+        ></fa-icon>
+      </a>
+      <a class="banner-link" href="https://www.youtube.com/chrishacia" target="_blank">
+        <fa-icon
+          class="banner-icon"
+          [icon]="faYoutube"
+          size="xl"
+        ></fa-icon>
+      </a>
+      <a class="banner-link" href="https://discord.gg/xG6ezcNJ" target="_blank">
+        <fa-icon
+          class="banner-icon"
+          [icon]="faDiscord"
+          size="xl"
+        ></fa-icon>
+      </a>
+    </div>
+    <br />
+    <div>
+      <button class="banner-button btn" (click)="openLink('/assets/resume.pdf')"><fa-icon [icon]="faDownload" /> Resume</button>
+      <button class="banner-button btn" (click)="openLink('/contact', false)">Contact</button>
     </div>
   </div>
 </div>

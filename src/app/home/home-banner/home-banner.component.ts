@@ -1,6 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import { faGithub, faLinkedin, faTwitter, faFacebookSquare, faInstagramSquare, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { urlOpener } from '../../utilities/index';
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+  faFacebook,
+  faInstagram,
+  faTiktok,
+  faYoutube,
+  faDiscord,
+} from '@fortawesome/free-brands-svg-icons';
+
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home-banner',
@@ -14,9 +26,12 @@ export class HomeBannerComponent implements OnInit {
   faGithub = faGithub;
   faLinkedin = faLinkedin;
   faTwitter = faTwitter;
-  faFacebookSquare = faFacebookSquare;
-  faInstagramSquare = faInstagramSquare;
+  faFacebook = faFacebook;
+  faInstagram = faInstagram;
   faTiktok = faTiktok;
+  faYoutube = faYoutube
+  faDiscord = faDiscord;
+  faDownload = faDownload;
 
   constructor() { }
 
@@ -28,5 +43,8 @@ export class HomeBannerComponent implements OnInit {
     interval(3000).subscribe(() => {
       this.headerString = this.headerStringArray[Math.floor(Math.random() * this.headerStringArray.length)];
     });
+  }
+  openLink(url: string, openIn: boolean = true) {
+    urlOpener(url, openIn);
   }
 }

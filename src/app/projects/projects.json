@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "image": "/assets/images/projects/under-construction-template.png",
+      "title": "Check To Check Budget",
+      "description": "A web application that allows users to create a budget and track their spending.",
+      "github": "https://github.com/chrishacia",
+      "demo": ""
+    },
+    {
+      "image": "/assets/images/projects/under-construction-template.png",
+      "title": "Coder Life",
+      "description": "A web application that will allow Coders of all levels to connect and share their experiences. To get help and be helped",
+      "github": "https://github.com/chrishacia",
+      "demo": ""
+    },
+    {
+      "image": "/assets/images/projects/under-construction-template.png",
+      "title": "Underprivileged Car Club",
+      "description": "A website for the Underprivileged Car Club.",
+      "github": "https://github.com/chrishacia",
+      "demo": ""
+    },
+    {
+      "image": "/assets/images/projects/under-construction-template.png",
+      "title": "Resume Tracker",
+      "description": "A service that allows users to track their job applications and the status of each application. Unifying the application process with the hiring process",
+      "github": "https://github.com/chrishacia",
+      "demo": ""
+    }
+  ]
+}
+

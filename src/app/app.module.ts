@@ -6,8 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { ResumeComponent } from './resume/resume.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 import { HomeBannerComponent } from './home/home-banner/home-banner.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    HomeBannerComponent
+    HomeBannerComponent,
+    ResumeComponent,
+    ProjectsComponent,
+    ContactComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

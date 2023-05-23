@@ -1,1 +1,69 @@
-<p>projects works!</p>
+<div class="projects">
+  <h1>Projects</h1>
+  <br />
+  <h2>Sites and Services</h2>
+  <div class="projects-wrapper">
+
+      <div class="project" *ngFor="let project of projects.projects">
+        <div class="project__image">
+          <img *ngIf="project.image" [src]="project.image" alt="project image" />
+        </div>
+        <div class="project__content">
+          <h3 class="project__title">{{ project.title }}</h3>
+          <p class="project__description">{{ project.description }}</p>
+          <div class="project__links">
+            <button
+              *ngIf="project.github"
+              class="project__link btn"
+              target="_blank"
+              (click)="openLink(project.github)"
+            >
+              Github
+            </button>
+            <button
+              *ngIf="project.demo"
+              class="project__link btn"
+              target="_blank"
+              (click)="openLink(project.demo)"
+            >
+              Demo
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <br />
+    <h2>Sandbox & Prototypes</h2>
+    <div class="projects-wrapper">
+        <div class="project" *ngFor="let sandbox of sandboxes.projects">
+          <div class="project__image">
+            <img *ngIf="sandbox.image" [src]="sandbox.image" alt="project image" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__title">{{ sandbox.title }}</h3>
+            <p class="project__description">{{ sandbox.description }}</p>
+            <div class="project__links">
+              <button
+                *ngIf="sandbox.github"
+                class="project__link btn"
+                target="_blank"
+                (click)="openLink(sandbox.github)"
+              >
+                Github
+              </button>
+              <button
+                *ngIf="sandbox.demo"
+                class="project__link btn"
+                target="_blank"
+                (click)="openLink(sandbox.demo)"
+              >
+                Demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>

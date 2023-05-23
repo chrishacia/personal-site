@@ -1,1 +1,20 @@
-<p>resume works!</p>
+<div class="resume">
+  <h1>{{ resume.title }}</h1>
+  <p>
+    <strong>Phone:</strong>&nbsp;&nbsp;{{ resume.contact.phone }}<br />
+    <strong>Email:</strong>&nbsp;&nbsp;{{ resume.contact.email }}<br />
+    <strong>GitHub:</strong>&nbsp;&nbsp;<a href="{{ resume.contact.github }}" target="_blank">{{ resume.contact.github }}</a><br />
+    <strong>LinkedIn:</strong>&nbsp;&nbsp;<a href="{{ resume.contact.linkedin }}" target="_blank">{{ resume.contact.linkedin }}</a><br />
+  </p>
+  <h2>Skills</h2>
+  <br />
+  {{ resume.skills.join(', ') }}
+  <br /><br />
+  <h2>Experience</h2>
+  <br />
+  <section *ngFor="let experience of resume.experience">
+      <h3>{{ experience.company }}</h3>
+      <h4>{{ experience.position }} {{ experience.duration }} {{ experience.location }}</h4>
+      <p>{{ experience.description }}</p>
+  </section>
+</div>

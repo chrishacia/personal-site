@@ -1,0 +1,150 @@
+{
+  "name": "Christopher Hacia",
+  "title": "Lead / Senior Web & Software Developer / Engineer",
+  "contact": {
+    "phone": "+1 (209) 229-3969",
+    "email": "chris@hacia.net",
+    "github": "https://github.com/chrishacia",
+    "linkedin": "https://linkedin.com/in/chrishacia"
+  },
+  "skills": [
+    "PHP",
+    "CSS",
+    "HTML",
+    "MySQL",
+    "JavaScript",
+    "jQuery",
+    "ReactJS",
+    "React Native",
+    "Express.js",
+    "CodeIgniter",
+    "Zend Framework",
+    "REST",
+    "Backbone.js",
+    "Underscore.js",
+    "Node.js",
+    "WordPress",
+    "Gulp",
+    "Grunt",
+    "Webpack",
+    "Bootstrap",
+    "Sass",
+    "esLint",
+    "Git",
+    "JIRA",
+    "Teamwork",
+    "Photoshop",
+    "Lightroom",
+    "Cordova",
+    "Phonegap",
+    "Ionic",
+    "Codeception",
+    "Nighthawk",
+    "Selenium Web Driver",
+    "Electrode",
+    "React Router",
+    "Redux"
+  ],
+  "experience": [
+    {
+      "company": "Blackline Safety",
+      "position": "Software Engineer",
+      "duration": "May 2022 – Current",
+      "location": "Calgary, Alberta, Canada (Remote)",
+      "description": "Develop and maintain systems in Node.js, Socket.IO, Angular, Python, PHP, and MySQL. Leveraged AWS Lambda."
+    },
+    {
+      "company": "Cognizant",
+      "position": "Software Engineer",
+      "duration": "April 2021 – April 2023",
+      "location": "Remote (Contract)",
+      "description": "Worked for multiple companies such as FMGlobal and Wells Fargo Bank. Covered the roles of Lead Solution Architect and Software Engineer. Utilized ReactJS, jQuery, and various other frameworks and tools."
+    },
+    {
+      "company": "Contingent Worker via Apex Walmart",
+      "position": "Software Engineer III",
+      "duration": "August 2022 – November 2022",
+      "location": "Remote (Contract)",
+      "description": "Worked on the 3rd party sales platforms. Worked with ReactJS, React Native, Redux, GraphQL, Node.js."
+    },
+    {
+      "company": "Contingent Worker via Pyramid Consulting Facebook",
+      "position": "Software Engineer III",
+      "duration": "October 2021 – April 2022",
+      "location": "Remote (Contract)",
+      "description": "Worked in the internals tier, developing tooling for Ownership and management for files, process, and more. Utilized React.js, GraphQL via Relay.js, Flow.js, and PHP."
+    },
+    {
+      "company": "Contingent Worker via Pyramid Consulting Intuit",
+      "position": "Software Engineer II",
+      "duration": "April 2020 – April 2021",
+      "location": "Remote (Contract)",
+      "description": "Worked with the Quickbooks ProAdvisor Accountant team, building out new features and components with ReactJS and GraphQL. Also supported the product by finding and fixing bugs and security issues. Utilized Jest and esLint for unit testing and code quality."
+    },
+    {
+      "company": "Contingent Worker via Pyramid Consulting Walmart Labs",
+      "position": "Senior Software Engineer & Developer",
+      "duration": "September 2019 - April 2020",
+      "location": "Sunnyvale, CA (Contract)",
+      "description": "Worked on the Account-Post Transaction Team on walmart.com. Built, maintained, and enhanced the user experience of a user's account and transaction history needs. Built end-to-end automation using Nightwatch.js. Worked with Hapi.js, Node.js, ReactJS, Redux, and GraphQL. Also utilized Git and Jenkins in the CI/CD pipeline."
+    },
+    {
+      "company": "Cisco",
+      "position": "Senior Software Engineer & Developer",
+      "duration": "June 2019 - September 2019",
+      "location": "San Jose, CA (Contract)",
+      "description": "Worked with the DNAC team, developing an automated end-to-end testing suite using CodeCeptJS. Enhanced client-facing tooling and developed new features on the customer-facing platform for DNAC using NodeJS, ExpressJS, MongoDB, jQuery, ReactJS, and Redux. Redesigned the middleware communication from server to client with Axios.js. Ensured code quality using CSDL (Cisco Secure Development Lifecycle)."
+    },
+    {
+      "company": "Guardian Alliance Technologies",
+      "position": "Lead & Senior Software Engineer Full Stack Developer",
+      "duration": "September 2017 - April 2019",
+      "location": "Stockton, CA",
+      "description": "Built a software-as-a-service application from the ground up using CodeIgniter & Symfony PHP MVC Frameworks. Managed local and offshore development teams along with a QA team. Oversaw service architecture and deployment on AWS EC2."
+    },
+    {
+      "company": "MindSlap",
+      "position": "Lead & Senior Software Engineer Full Stack Developer",
+      "duration": "August 2016 – September 2017",
+      "location": "Stockton, CA",
+      "description": "Developed and managed projects for various companies and clients using CodeIgniter, Zend Framework, WordPress CMS, and other frameworks."
+    },
+    {
+      "company": "Zetta, Inc.",
+      "position": "Senior Software Engineer Full Stack",
+      "duration": "April 2012 - July 2016",
+      "location": "Sunnyvale, CA",
+      "description": "Rebranded and enhanced features of a cloud-based Backup and Disaster Recovery service. Utilized Zend Framework and ReactJS."
+    },
+    {
+      "company": "fanmeetr",
+      "position": "Lead Architect & Engineer",
+      "duration": "Sep 2011 - Dec 2012"
+    },
+    {
+      "company": "ZettaSet",
+      "position": "Senior Software Engineer / Full Stack",
+      "duration": "Aug 2011 - Feb 2012"
+    },
+    {
+      "company": "UpMo",
+      "position": "Senior Software Engineer / Full Stack",
+      "duration": "Apr 2011 – Jun 2011"
+    },
+    {
+      "company": "Campus Rhythm",
+      "position": "Lead Architect & Engineer",
+      "duration": "Apr 2008 - May 2009"
+    },
+    {
+      "company": "RDP Group",
+      "position": "Senior Full Stack Developer",
+      "duration": "Oct 2008 - Jun 2015"
+    },
+    {
+      "company": "Advocacy Unlimited",
+      "position": "Lead Architect & Engineer",
+      "duration": "Apr 2008 - May 2009"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.resume {
+  margin: 0 auto;
+  width: 80%
+}
+
+.resume h1 {
+  font-size: 1.75em;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.resume h2 {
+  font-size: 1.25em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.resume h3 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: rgb(108, 108, 199);
+}
+
+.resume h4 {
+  font-size: 0.95em;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-style: italic;
+  color: rgb(165, 165, 216);
+}
+
+.resume section {
+  margin-bottom: 20px;
+  background-color: var(--highlight-color);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--trim-color);
+  padding: 10px;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.18);
+}

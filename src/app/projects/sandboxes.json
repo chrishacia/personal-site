@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "image": "/assets/images/projects/under-construction-template.png",
+      "title": "HTML Signature Generator",
+      "description": "A web based widget for generating HTML signatures for your email.",
+      "github": "https://github.com/chrishacia",
+      "demo": ""
+    }
+  ]
+}
+
