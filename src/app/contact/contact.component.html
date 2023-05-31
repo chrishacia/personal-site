@@ -1,14 +1,15 @@
 <section>
-  <div>
+  <div class="contact-form-notification">This form is not currently working.</div>
+  <div class="contact-form">
     <form
       [formGroup]="form"
       (ngSubmit)="send()"
     >
       <h1>
-        Angular Contact Form
+        Contact
       </h1>
       <div>
-        <label for="name">Name</label>
+        <label for="name">Your name:</label>
         <input
           formControlName="name"
           type="text"
@@ -17,7 +18,7 @@
         />
       </div>
       <div>
-        <label for="email">Email</label>
+        <label for="email">Your email:</label>
         <input
           formControlName="email"
           type="email"
@@ -26,16 +27,18 @@
         />
       </div>
       <div>
-        <label for="message">Message</label>
+        <label for="message">Your message:</label>
         <textarea
           formControlName="message"
           id="message"
           name="message"
         ></textarea>
       </div>
-      <button type="submit">
-        Send
-      </button>
+      <div class="contact-form-btn">
+        <button class="btn" type="submit">
+          Send
+        </button>
+      </div>
     </form>
   </div>
 </section>

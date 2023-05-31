@@ -1,11 +1,46 @@
-.contact {
+.contact-form {
   margin: 0 auto;
   width: 80%
 }
 
-.contact h1 {
+.contact-form h1 {
   font-size: 1.75em;
   margin-bottom: 0;
   margin-top: 0;
   text-transform: uppercase;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1.0em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  margin-top: 0.6em;
+}
+
+.contact-form input[type="text"], .contact-form textarea, .contact-form input[type="email"] {
+  border: 1px solid #ccc;
+  font-size: 1.0em;
+  padding: 0.3em;
+  margin-bottom: 0.3em;
+  width: 100%;
+}
+
+.contact-form-btn {
+  text-align: end;
+}
+
+.contact-form-btn .btn {
+  margin-right: 0;
+}
+
+.contact-form-notification {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 1em;
+  margin-bottom: 20px;
+  background-color: #fac3c3;
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: center;
 }
