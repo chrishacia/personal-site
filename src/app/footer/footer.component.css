@@ -1,0 +1,30 @@
+.foot-nav {
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height:30px;
+  padding-left: 30px;
+}
+
+.foot-nav-item {
+  font-size: .85em;
+  flex-grow: 0;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.foot-nav-item:first-child {
+  padding-left: 0;
+}
+
+.foot-nav-item:last-child {
+  padding-right: 20px;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .foot-nav-item:not(:last-child) {
+    display: none;
+  }
+}

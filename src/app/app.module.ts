@@ -12,6 +12,10 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeBannerComponent } from './home/home-banner/home-banner.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BlogComponent } from './blog/blog.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { ContactService } from './contact/contact.service';
+
 
 @NgModule({
   declarations: [
@@ -29,8 +33,10 @@ import { BlogComponent } from './blog/blog.component';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

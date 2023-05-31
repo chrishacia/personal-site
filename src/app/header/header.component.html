@@ -2,7 +2,7 @@
 
   <div class="nav-logo-circle">
     <div class="nav-logo-circle-inner">
-      <a routerLink="/home">
+      <a href="/home" (click)="openUrl('/', false, $event)">
         C
       </a>
     </div>
@@ -13,22 +13,40 @@
     <span class="nav-logo-text-sm">&nbsp; Eat, sleep, code...</span>
   </div>
 
-  <nav class="nav-main">
-    <div class="nav-main-item">
-      <a routerLink="/">Home</a>
+  <div class="nav-hamburger" (click)="toggleNav()">
+    <div class="nav-hamburger-inner">
+      <div class="nav-hamburger-bar"></div>
+      <div class="nav-hamburger-bar"></div>
+      <div class="nav-hamburger-bar"></div>
+    </div>
+  </div>
+
+  <nav class="nav-main" *ngIf="isNavOpen">
+    <div class="nav-toggle-close">
+      <div class="nav-toggle-close-inner" (click)="toggleNav()">
+        <fa-icon
+          class="banner-icon"
+          [icon]="faXmark"
+          size="lg"
+        ></fa-icon>
+      </div>
     </div>
     <div class="nav-main-item">
-      <a routerLink="/blog">Blog</a>
+      <a href="/" (click)="openUrl('/', false, $event)">Home</a>
     </div>
     <div class="nav-main-item">
-      <a routerLink="/resume">Resume</a>
+      <a routerLink="/blog" (click)="openUrl('/blog', false, $event)">Blog</a>
     </div>
     <div class="nav-main-item">
-      <a routerLink="/projects">Projects</a>
+      <a routerLink="/resume" (click)="openUrl('/resume', false, $event)">Resume</a>
     </div>
     <div class="nav-main-item">
-      <a routerLink="/contact">Contact</a>
+      <a routerLink="/projects" (click)="openUrl('/projects', false, $event)">Projects</a>
+    </div>
+    <div class="nav-main-item">
+      <a routerLink="/contact" (click)="openUrl('/contact', false, $event)">Contact</a>
     </div>
   </nav>
+
 
 </header>

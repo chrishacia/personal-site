@@ -1,3 +1,41 @@
-<div class="contact">
-  <h1>Contact</h1>
-</div>
+<section>
+  <div>
+    <form
+      [formGroup]="form"
+      (ngSubmit)="send()"
+    >
+      <h1>
+        Angular Contact Form
+      </h1>
+      <div>
+        <label for="name">Name</label>
+        <input
+          formControlName="name"
+          type="text"
+          id="name"
+          name="name"
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input
+          formControlName="email"
+          type="email"
+          id="email"
+          name="email"
+        />
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea
+          formControlName="message"
+          id="message"
+          name="message"
+        ></textarea>
+      </div>
+      <button type="submit">
+        Send
+      </button>
+    </form>
+  </div>
+</section>

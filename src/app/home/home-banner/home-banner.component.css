@@ -5,10 +5,6 @@
   padding-right: 10%;
 }
 
-.banner-content {
-  /* placeholder */
-}
-
 .banner-content:last-child {
   padding-left: 50px;
   flex-grow: 1;
@@ -62,3 +58,42 @@
   color: rgb(103, 114, 166);
 }
 
+@media screen and (max-width: 750px) {
+  .banner-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    flex-wrap: wrap
+  }
+
+  .banner-content:first-child {
+    width: 150px;
+    margin-left:85px;
+  }
+
+  .banner-content, .banner-content:last-child {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .banner-content h1 {
+    font-size: 1.75em;
+  }
+
+  .banner-content p {
+    font-size: 1em;
+  }
+
+  .banner-header-string {
+    margin-top: 25px;
+    font-size: .75em;
+  }
+
+  .banner-image {
+    width: 150px;
+    height: 150px;
+    border-width: 10px;
+  }
+}
